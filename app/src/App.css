@@ -1,0 +1,141 @@
+.mainWrapper {
+  background: #F7F7F7;
+  padding: 20px;
+}
+.mainWrapper h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.AddNewButton {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+.AddNewButton b {
+  padding-left: 10px;
+}
+
+.AddFormWrapper {
+}
+
+.HideButtonsWrapper {
+  display: grid;
+  margin: 10px 0;
+  grid-template-columns: auto 1fr auto
+}
+
+.HideButton {
+  background: none;
+  border: none;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-column-gap: 35px;
+  grid-row-gap: 20px;
+  grid-template-rows: 1fr 1fr;
+}
+.InputElementWr {
+  font-size: 1rem;
+}
+.InputElementWr p {
+  margin: 0 0 15px 0;
+  font-weight: bold;
+  color: #ABABAD;
+}
+.InputElementWr .inWrapper {
+  display: grid;
+}
+.InputElementWr input {
+  font-size: 1rem;
+  border: 1px solid #d0d0d0;
+  padding: 10px 0px 10px 15px;
+  border-radius: 25px;
+}
+
+.AddFormWrapper .butWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0px;
+}
+.SaveButton {
+  text-align: center;
+  background: #C32630;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+
+
+.TableWrapper {
+  margin-top: 25px;
+  padding: 15px 0;
+  font-size: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-row-gap: 5px;
+}
+
+.TableWrapper .title {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+
+  padding: 0px;
+  margin-bottom: 15px;
+  color: #ABABAD;
+}
+
+.TableWrapper .line{
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  border: 1px solid #BD9CA4;
+  height: 0px;
+}
+
+.TableWrapper hr{
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  color: black;
+  width: 100px;
+  border-width: 2px;
+}
+
+.TableWrapper .cell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.TableWrapper .cell button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  font-size: 1.3rem;
+  border: none;
+  background: none;
+}
